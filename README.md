@@ -1,1 +1,1 @@
-# odin-landing
+This is a end of section project designed to showcase skills relative to CSS understanding and layout management.
