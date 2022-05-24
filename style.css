@@ -91,23 +91,25 @@ ul {
     background-color: rgb(119, 116, 116);
     color: #e5e7eb;
     margin-right: 50px;
-    height: 200px;
-    width: 300px;
+    min-height: 300px;
+    min-width: 300px;
     
 }
 
 .title { 
-    min-width: 600px;
+    min-width: 400px;
     margin: 0 auto;
     padding: 50px 0;
 }
 
 .header .title {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;
-    flex-direction: column;
-    flex: 2;
+    margin-left: 50px;
+    /* flex-direction: column; */
+    /*flex: 1;*/
     gap: 20px;
 }
 
@@ -128,5 +130,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;   
+    /* flex: 1; */
+    margin-left: 50px;
 }
