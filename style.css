@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hl {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.navbar {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar .logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.navbar a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightseagreen;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.imgholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(119, 116, 116);
+    color: #e5e7eb;
+    margin-right: 50px;
+    height: 200px;
+    width: 300px;
+    
+}
+
+.title { 
+    min-width: 600px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.header .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 2;
+    gap: 20px;
+}
+
+.title .sign1 {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.title .sign1:hover {
+    background-color: lightseagreen;
+}
+
+
+.header .imgholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;   
+}
